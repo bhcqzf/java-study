@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/../ch06-aop-aspectj/pom.xml" />
+        <option value="$PROJECT_DIR$/../ch07-spring-mybatis/pom.xml" />
       </list>
     </option>
   </component>
