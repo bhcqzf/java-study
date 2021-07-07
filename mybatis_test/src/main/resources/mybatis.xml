@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--    环境配置：数据库的连接信息
+            default:必须和某个environment的id值一样
+            高速mybatis使用哪个数据库的连接信息。也就是访问哪个数据库
+    -->
+    <!--输出日志到控制台上-->
+    <settings>
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+    </settings>
+    <environments default="development2">
+        <!--        enviroment : 一个数据库信息的配置，环境
+                    id：一个唯一的值，自定义，表示环境名称。
+                    便于切换数据库
+        -->
+        <environment id="development">
+            <!--
+            transactionManager ： mybatis的事务类型
+                type： JDBC(表示使用jdbc中Connect对象的commit，rollback做事务处理)
+            -->
+            <transactionManager type="JDBC"/>
+            <!--
+                datasource ：表示数据源，连接数据库的
+                    type：表示数据源的类型，POOLED表示连接池
+            -->
+
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://59.110.25.44:3306/study?useUnicode=true;characterEncoding=UTF-8" />
+                <!--                ?useUnicode=true&amp;characterEncoding=UTF-8"/>-->
+                <property name="username" value="bai"/>
+                <property name="password" value="bai"/>
+            </dataSource>
+        </environment>
+
+        <environment id="development2">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://59.110.25.44:3306/study"/>
+                <property name="username" value="bai"/>
+                <property name="password" value="bai"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <!--
+        sql映射文件的位置
+        从一个类路径开始的路径信息
+    -->
+    <mappers>
+        <mapper resource="cn/bigbaic/dao/StudentDao.xml"/>
+    </mappers>
+</configuration>
+
+
+        <!--
+        mybatis的主配置文件：主要定义了数据库的配置信息，sql映射文件的位置
+
+        1、指定约束文件
+        <!DOCTYPE mapper
+                PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+                "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+                mybatis-3-mapper.dtd是约束文件的名称，拓展名是dtd的
+        2、
+
+
+
+        -->

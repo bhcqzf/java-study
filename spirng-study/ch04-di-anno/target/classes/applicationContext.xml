@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+
+    <!--声明组建扫描器,组件就是java对象
+        base-pavkage:指定注解在你的项目中的包名
+        把包中和子包中的所有类，找到类中的注解，按照注解的功能创建或赋值
+    -->
+
+    <context:component-scan base-package="cn.bigbaic.ba06" />
+
+
+
+
+</beans>
