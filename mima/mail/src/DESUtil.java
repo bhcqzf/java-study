@@ -99,6 +99,6 @@ public class DESUtil {
 
 //	}
 public static void main(String[] args) {
-    System.out.println(getDecryptString("RjzLxLZhEWDjsgYB+xgesQ=="));
+    System.out.println(getDecryptString("66F0FA002C488EF1"));
 }
 }

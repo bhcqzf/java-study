@@ -183,7 +183,7 @@ public class EncryptArithmetic {
         System.out.println(f_password);
 
 
-        String secret = "2CFF9DFF0471B4FB4F06C924671F0A66";
+        String secret = "66F0FA002C488EF1";
         EncryptArithmetic eaa = new EncryptArithmetic();
         String jm =  eaa.decryptIt(secret, str.getBytes("ISO-8859-1"));
         System.out.println(jm);
