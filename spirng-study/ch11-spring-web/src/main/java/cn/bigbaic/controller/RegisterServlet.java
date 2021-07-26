@@ -4,6 +4,7 @@ import cn.bigbaic.domain.Student;
 import cn.bigbaic.service.StudentService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.web.context.WebApplicationContext;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
@@ -23,10 +24,17 @@ public class RegisterServlet extends HttpServlet {
         String strAge = request.getParameter("age");
 
 //        创建spring的容器对象
-        String config = "applicationContext.xml";
-        ApplicationContext ctx = new ClassPathXmlApplicationContext(config);
-        StudentService service = (StudentService) ctx.getBean("studentService");
+/*        String config = "spring.xml";
+        ApplicationContext ctx = new ClassPathXmlApplicationContext(config);*/
+
+        WebApplicationContext ctx = null;
+        String key = WebApplicationContext.ROOT_WEB_APPLICATION_CONTEXT_ATTRIBUTE;
+        Object attr = getServletContext().getAttribute(key);
+        if (attr != null){
+            ctx = (WebApplicationContext) attr;
+        }
         System.out.println("容器对象的信息=====>"+ctx);
+        StudentService service = (StudentService) ctx.getBean("studentService");
         Student student = new Student();
         student.setId(Integer.valueOf(strId));
         student.setName(strName);
