@@ -6,5 +6,5 @@ import java.util.List;
 
 public interface SaleDao {
     List<Sale> selectSale();
-    int inserSale(Sale sale);
+    int insertSale(Sale sale);
 }

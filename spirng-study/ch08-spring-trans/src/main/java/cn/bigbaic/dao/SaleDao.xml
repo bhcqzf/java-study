@@ -9,7 +9,7 @@
     </select>
 
     <insert id="insertSale" >
-        insert into sale value(#{id},#{gid},#{names})
+        insert into sale value(#{id},#{gid},#{nums})
     </insert>
 
 </mapper>

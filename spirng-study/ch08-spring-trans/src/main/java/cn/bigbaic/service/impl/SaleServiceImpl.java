@@ -23,7 +23,7 @@ public class SaleServiceImpl implements SaleService {
 
     @Override
     public int addSale(Sale sale) {
-        int res = this.saleDao.inserSale(sale);
+        int res = this.saleDao.insertSale(sale);
         System.out.println(res);
         return res;
     }

@@ -55,4 +55,42 @@ public class MyTest {
         System.out.println(res==1?"添加商品成功":"添加商品失败");
 
     }
+    @Test
+    public void test04(){
+        String config = "applicationContext.xml";
+        ApplicationContext ctx = new ClassPathXmlApplicationContext(config);
+        SaleService service = (SaleService) ctx.getBean("saleService");
+        Sale sale = new Sale();
+        sale.setId(1);
+        sale.setGid(1001);
+        sale.setNums(10);
+        int res = service.addSale(sale);
+        System.out.println(res == 1 ? "更新成功" : "更新失败");
+    }
+
+    @Test
+    public void test05(){
+        String config = "applicationContext.xml";
+        ApplicationContext ctx = new ClassPathXmlApplicationContext(config);
+
+
+        GoodsService service = (GoodsService) ctx.getBean("goodsService");
+        Goods goods = new Goods();
+        goods.setId(1004);
+        goods.setName("平板1");
+        goods.setAmount(2000);
+        goods.setPrice(1500.0F);
+        int res = service.addGoods(goods);
+
+        System.out.println(res==1?"添加商品成功":"添加商品失败");
+
+        SaleService saleService = (SaleService) ctx.getBean("saleService");
+        Sale sale = new Sale();
+        sale.setId(2);
+        sale.setGid(1002);
+        sale.setNums(10);
+        int saleRes = saleService.addSale(sale);
+        System.out.println(saleRes == 1 ? "更新成功" : "更新失败");
+    }
+
 }
