@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ch07-spring-mybatis.iml" filepath="$PROJECT_DIR$/ch07-spring-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ch08-spring-trans/ch08-spring-trans.iml" filepath="$PROJECT_DIR$/../ch08-spring-trans/ch08-spring-trans.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ch09-spring-tans-anno/ch09-spring-trans-anno.iml" filepath="$PROJECT_DIR$/../ch09-spring-tans-anno/ch09-spring-trans-anno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ch10-spring-trans-aspectj/ch10-spring-trans-aspectj.iml" filepath="$PROJECT_DIR$/../ch10-spring-trans-aspectj/ch10-spring-trans-aspectj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ch11-spring-web/ch11-spring-web.iml" filepath="$PROJECT_DIR$/../ch11-spring-web/ch11-spring-web.iml" />
+    </modules>
+  </component>
+</project>
