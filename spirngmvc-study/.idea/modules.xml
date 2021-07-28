@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ch01-hello-springmvc/ch01-hello-springmvc.iml" filepath="$PROJECT_DIR$/ch01-hello-springmvc/ch01-hello-springmvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch02-test-fastjson/ch02-test-fastjson.iml" filepath="$PROJECT_DIR$/ch02-test-fastjson/ch02-test-fastjson.iml" />
     </modules>
   </component>
 </project>

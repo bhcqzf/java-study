@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ch01-hello-springmvc" />
+        <module name="ch02-test-fastjson" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ch01-hello-springmvc" target="1.8" />
+      <module name="ch02-test-fastjson" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

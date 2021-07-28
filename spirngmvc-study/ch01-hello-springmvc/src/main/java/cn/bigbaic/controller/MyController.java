@@ -13,7 +13,7 @@ import org.springframework.web.servlet.ModelAndView;
  * @date : 2021-07-26 16:46
  **/
 
-@Controller-
+@Controller
 public class MyController {
 
     @RequestMapping(value = "/some.do")
