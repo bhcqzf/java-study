@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/ch01-hello-springmvc/ch01-hello-springmvc.iml" filepath="$PROJECT_DIR$/ch01-hello-springmvc/ch01-hello-springmvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch02-requestmapping/ch02-requestmapping.iml" filepath="$PROJECT_DIR$/ch02-requestmapping/ch02-requestmapping.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch02-test-fastjson/ch02-test-fastjson.iml" filepath="$PROJECT_DIR$/ch02-test-fastjson/ch02-test-fastjson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch03-receveparam/ch03-receveparam.iml" filepath="$PROJECT_DIR$/ch03-receveparam/ch03-receveparam.iml" />
     </modules>
   </component>
 </project>

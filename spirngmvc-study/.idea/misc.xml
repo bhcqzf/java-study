@@ -5,6 +5,7 @@
     <file type="web" url="file://$PROJECT_DIR$/ch01-hello-springmvc" />
     <file type="web" url="file://$PROJECT_DIR$/ch02-requestmapping" />
     <file type="web" url="file://$PROJECT_DIR$/ch02-test-fastjson" />
+    <file type="web" url="file://$PROJECT_DIR$/ch03-receveparam" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -13,6 +14,7 @@
         <option value="$PROJECT_DIR$/ch01-hello-springmvc/pom.xml" />
         <option value="$PROJECT_DIR$/ch02-test-fastjson/pom.xml" />
         <option value="$PROJECT_DIR$/ch02-requestmapping/pom.xml" />
+        <option value="$PROJECT_DIR$/ch03-receveparam/pom.xml" />
       </list>
     </option>
   </component>
