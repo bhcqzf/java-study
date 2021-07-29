@@ -1,8 +1,10 @@
 package cn.bigbaic.controller;
 
+import cn.bigbaic.vo.Student;
 import com.alibaba.fastjson.JSON;
 import com.sun.org.apache.xpath.internal.operations.Mod;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -75,5 +77,46 @@ public class MyController {
         mv.addObject("age",age);
         mv.setViewName("/show.jsp");
         return mv;
+    }
+    @ResponseBody
+    @RequestMapping("/student.do")
+    public String dostudent(Student student){
+        String res = null;
+        System.out.println(student.getAge());
+        System.out.println(student.getName());
+        Map<String,String> map = new HashMap<>();
+        map.put("name",student.getName());
+        map.put("age",student.getAge());
+        res = JSON.toJSONString(map);
+        return res;
+    }
+    @ResponseBody
+    @RequestMapping(value = "/student1.do",method = RequestMethod.POST)
+    public String dostudent1(Student student){
+        String res = null;
+        System.out.println(student.getAge());
+        System.out.println(student.getName());
+        Map<String,String> map = new HashMap<>();
+        map.put("name",student.getName());
+        map.put("age",student.getAge());
+        res = JSON.toJSONString(map);
+        return res;
+    }
+    @RequestMapping(value = "/tiaozhuan.do",method = RequestMethod.POST)
+    public String dostudent2(Student student){
+        String res = null;
+        System.out.println(student.getAge());
+        System.out.println(student.getName());
+        Map<String,String> map = new HashMap<>();
+        map.put("name",student.getName());
+        map.put("age",student.getAge());
+        res = JSON.toJSONString(map);
+        if (student.getAge().equals("20")){
+            res = "index.jsp";
+        }else{
+            res = "show.jsp";
+        }
+
+        return res;
     }
 }
