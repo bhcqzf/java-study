@@ -1,5 +1,9 @@
 <html>
+<head>
+    <title>功能入口</title>
+</head>
 <body>
-<h2>Hello World!</h2>
+我的第一个SSM框架
+
 </body>
 </html>
