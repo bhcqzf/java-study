@@ -2,10 +2,13 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/../ch01-hello-springmvc" />
+    <file type="web" url="file://$PROJECT_DIR$/../spirng-study/ch11-spring-web" />
     <file type="web" url="file://$PROJECT_DIR$/ch01-hello-springmvc" />
     <file type="web" url="file://$PROJECT_DIR$/ch02-requestmapping" />
     <file type="web" url="file://$PROJECT_DIR$/ch02-test-fastjson" />
     <file type="web" url="file://$PROJECT_DIR$/ch03-receveparam" />
+    <file type="web" url="file://$PROJECT_DIR$/ch04-rul-pattern" />
+    <file type="web" url="file://$PROJECT_DIR$/ch07-ssm" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -15,6 +18,9 @@
         <option value="$PROJECT_DIR$/ch02-test-fastjson/pom.xml" />
         <option value="$PROJECT_DIR$/ch02-requestmapping/pom.xml" />
         <option value="$PROJECT_DIR$/ch03-receveparam/pom.xml" />
+        <option value="$PROJECT_DIR$/ch04-rul-pattern/pom.xml" />
+        <option value="$PROJECT_DIR$/ch07-ssm/pom.xml" />
+        <option value="$PROJECT_DIR$/../spirng-study/ch11-spring-web/pom.xml" />
       </list>
     </option>
   </component>

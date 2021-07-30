@@ -6,6 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/ch02-requestmapping/ch02-requestmapping.iml" filepath="$PROJECT_DIR$/ch02-requestmapping/ch02-requestmapping.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch02-test-fastjson/ch02-test-fastjson.iml" filepath="$PROJECT_DIR$/ch02-test-fastjson/ch02-test-fastjson.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch03-receveparam/ch03-receveparam.iml" filepath="$PROJECT_DIR$/ch03-receveparam/ch03-receveparam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch04-rul-pattern/ch04-rul-pattern.iml" filepath="$PROJECT_DIR$/ch04-rul-pattern/ch04-rul-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch07-ssm/ch07-ssm.iml" filepath="$PROJECT_DIR$/ch07-ssm/ch07-ssm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spirng-study/ch11-spring-web/ch11-spring-web.iml" filepath="$PROJECT_DIR$/../spirng-study/ch11-spring-web/ch11-spring-web.iml" />
     </modules>
   </component>
 </project>

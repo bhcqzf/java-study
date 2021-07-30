@@ -34,4 +34,11 @@
             </bean>
         </mvc:message-converters>
     </mvc:annotation-driven>
+
+    <!--让调度器解析静态资源-->
+
+    <mvc:resources mapping="image/**" location="/image/" />
+    <mvc:resources mapping="html/**" location="/html/" />
+    <mvc:resources mapping="js/**" location="/js/" />
+
 </beans>

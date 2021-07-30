@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>cn.bigbaic</groupId>
-  <artifactId>ch11-spring-web</artifactId>
+  <artifactId>ch07-ssm</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
@@ -17,6 +17,12 @@
   </properties>
 
   <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <scope>test</scope>
+    </dependency>
     <!--servlet依赖-->
     <dependency>
       <groupId>javax.servlet</groupId>
@@ -32,19 +38,11 @@
       <version>2.2.1-b03</version>
       <scope>provided</scope>
     </dependency>
-    <!--为了使用监听器，加入依赖-->
+
+    <!--springmvc依赖-->
     <dependency>
       <groupId>org.springframework</groupId>
-      <artifactId>spring-web</artifactId>
-      <version>5.2.5.RELEASE</version>
-    </dependency>
-
-
-
-    <!--sping依赖-->
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-context</artifactId>
+      <artifactId>spring-webmvc</artifactId>
       <version>5.2.5.RELEASE</version>
     </dependency>
 
@@ -84,21 +82,13 @@
       <artifactId>druid</artifactId>
       <version>1.1.12</version>
     </dependency>
-
+    <!--fastjson-->
     <dependency>
       <groupId>com.alibaba</groupId>
       <artifactId>fastjson</artifactId>
       <version>1.2.46</version>
     </dependency>
-
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.11</version>
-      <scope>test</scope>
-    </dependency>
   </dependencies>
-
   <build>
     <resources>
       <resource>
@@ -111,5 +101,4 @@
       </resource>
     </resources>
   </build>
-
 </project>

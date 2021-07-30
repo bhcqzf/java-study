@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3825e4b8-4cf2-4a02-86e5-ac7fdbc72d97" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ch11_spring_web_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ch11_spring_web_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_2_1_b03.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spirngmvc-study/.idea/artifacts/ch04_rul_pattern_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spirngmvc-study/.idea/artifacts/ch04_rul_pattern_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spirngmvc-study/.idea/artifacts/ch07_ssm_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spirngmvc-study/.idea/artifacts/ch07_ssm_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spirngmvc-study/ch04-rul-pattern/ch04-rul-pattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spirngmvc-study/ch04-rul-pattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spirngmvc-study/ch04-rul-pattern/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spirngmvc-study/ch04-rul-pattern/src/main/java/cn/bigbaic/controller/MyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spirngmvc-study/ch04-rul-pattern/src/main/java/cn/bigbaic/vo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spirngmvc-study/ch04-rul-pattern/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spirngmvc-study/ch04-rul-pattern/src/main/resources/springmvc第一种方式.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spirngmvc-study/ch04-rul-pattern/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spirngmvc-study/ch04-rul-pattern/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spirngmvc-study/ch04-rul-pattern/src/main/webapp/other.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spirngmvc-study/ch04-rul-pattern/src/main/webapp/show.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spirngmvc-study/ch07-ssm/ch07-ssm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spirngmvc-study/ch07-ssm/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spirngmvc-study/ch07-ssm/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spirngmvc-study/ch07-ssm/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spirngmvc-study/ch07-ssm/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spirngmvc-study/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spirngmvc-study/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spirngmvc-study/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spirngmvc-study/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spirngmvc-study/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spirngmvc-study/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spirngmvc-study/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spirngmvc-study/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spirngmvc-study/ch03-receveparam/src/main/java/cn/bigbaic/controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../spirngmvc-study/ch03-receveparam/src/main/java/cn/bigbaic/controller/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spirngmvc-study/ch03-receveparam/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spirngmvc-study/ch03-receveparam/src/main/resources/springmvc.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1w0y1XH8LZG07NZWl9VWECeGL0N" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3825e4b8-4cf2-4a02-86e5-ac7fdbc72d97" name="Default Changelist" comment="" />
+      <created>1627609591337</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627609591337</updated>
+      <workItem from="1627609594284" duration="343000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

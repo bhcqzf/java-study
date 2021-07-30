@@ -34,4 +34,9 @@
             </bean>
         </mvc:message-converters>
     </mvc:annotation-driven>
+
+    <!--让调度器解析静态资源-->
+
+    <mvc:default-servlet-handler />
+
 </beans>
